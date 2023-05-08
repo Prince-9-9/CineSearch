@@ -6,6 +6,7 @@ import Cards from "../card/card"
 // const delay = ms => new Promise(
 //     resolve => setTimeout(resolve, ms)
 // );
+const api_key = 'ccb3732e6cdf48f3af0f88f3661f8484';
 
 const SearchMovies = () =>{
     const query = document.getElementById('query').value;
@@ -17,7 +18,7 @@ const SearchMovies = () =>{
 
     useEffect(() => {
         const getData = () => {
-            fetch(`https://api.themoviedb.org/3/search/movie?query=${query}&include_adult=false&language=en-US&page=1&api_key=4e44d9029b1270a757cddc766a1bcb63`)
+            fetch(`https://api.themoviedb.org/3/search/keyword?query=${query}&include_adult=false&language=en-US&page=1&api_key=${api_key}`)
             .then(res => res.json())
             .then(data => setMovieList1(data.results))
         }
