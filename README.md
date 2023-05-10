@@ -1,8 +1,17 @@
 # CineSearch - Movies and TV Shows Database
 
-![IMDb Clone Screenshot](link-to-screenshot.png)
+<!-- ![IMDb Clone Screenshot](link-to-screenshot.png) -->
 
-This project is a React app that serves as an IMDb clone, providing users with access to a vast movie and TV show database. Users can explore currently playing movies, upcoming movies, top-rated movies, popular movies, and TV shows. Additionally, the app offers a search feature, allowing users to find information about specific movies or TV shows easily.
+This project is a React app, providing users with access to a vast movie and TV show database. Users can explore currently playing movies, upcoming movies, top-rated movies, popular movies, and TV shows. Additionally, the app offers a search feature, allowing users to find information about specific movies or TV shows easily.
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- TMDb API
+
 
 ## Features
 
@@ -21,7 +30,7 @@ This project is a React app that serves as an IMDb clone, providing users with a
 1. **Home Page:**
 
    - Upon loading the app, the landing page will display the list of currently playing movies.
-   - Users can use the navigation menu or scroll down to access other sections, such as upcoming movies, top-rated movies, popular movies, and TV shows.
+   - Users can use the navigation menu to access other sections, such as upcoming movies, top-rated movies, popular movies, and TV shows.
 
 2. **Explore Movies and TV Shows:**
 
@@ -63,13 +72,6 @@ To run this project locally, follow these steps:
 
    Open your web browser and navigate to `http://localhost:3000`.
 
-## Technologies Used
-
-- React
-- JavaScript
-- HTML
-- CSS
-- IMDb API (or any other movie and TV show database API)
 
 ## Contributing
 
