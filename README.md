@@ -43,8 +43,8 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
-   cd your-project
+   git clone https://github.com/Prince-9-9/CineSearch.git
+   cd CineSearch
    ```
 
 2. **Install dependencies:**
@@ -85,6 +85,6 @@ This project was made possible by utilizing the IMDb API (or any other movie and
 
 ## Contact
 
-If you have any questions or need further assistance, feel free to contact me at your.email@example.com.
+If you have any questions or need further assistance, feel free to contact me at princekumar090922@gmail.com.
 
 Happy exploring! 🍿
